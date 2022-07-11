@@ -1,0 +1,58 @@
+#home {
+    width: 100%;
+    height: 100vh;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    flex-wrap: nowrap;
+    align-content: center;
+    align-items: stretch;
+}
+
+.intro {
+    width: 100%;
+    padding: 0 16.5em 10em;
+    
+    position: relative;
+}
+
+.intro h5 {
+    font-size: 1.75em;
+    font-weight: 400;
+    text-transform: uppercase;
+    letter-spacing: 0.22em;
+}
+
+.intro h5 span {
+    font-family: 'Bellefair', serif;
+    font-size: 150px;
+    line-height: 1.5em;
+}
+.intro p {
+    font-size: 1.36em;
+    font-weight: 400;
+    line-height: 1.75em;
+}
+.intro button {
+    height: 7em;
+    width: 7em;
+    position: absolute;
+    bottom: 4em;
+    right: 5.5em;
+
+    background: #fff;
+    color: #0B0D17;
+
+    border-radius: 50%;
+    text-align: center;
+    font-size: 40px;
+    text-transform: uppercase;
+    border: none;
+
+    transition: .35s all ease;
+    
+}
+.intro button:hover {
+    box-shadow: 0 0 0 2em rgba(208, 214, 249, 0.2);
+}
