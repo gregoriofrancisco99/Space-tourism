@@ -1,0 +1,78 @@
+body {
+  background: url('./../img/home/background-home-desktop.jpg');
+  background-repeat: no-repeat;
+  background-position: 100% 100%;
+  background-size: 100% 100%;
+
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  align-content: space-between;
+  justify-content: space-between;
+  justify-items: center;
+}
+
+article {
+  width: 40%;
+  margin-left: 9em;
+  margin-bottom: 4.5em;
+  
+  font-family: 'Barlow Condensed', sans-serif;
+  letter-spacing: .25em;
+  color: #D0D6F9;
+}
+
+h1 {
+  font-size: 1.7em;
+
+  text-transform: uppercase;
+  font-weight: 400;
+}
+
+h1 strong {
+  color: #fff;
+  font-family: 'Bellefair';
+  font-weight: 400;
+  font-size: 5em;
+  line-height: 1.5em;
+}
+p{
+  padding-right: 3em;
+  font-size: 1.45em;
+  letter-spacing: normal;
+  font-weight: 400;
+
+  line-height: 1.7em;
+}
+
+button {
+  width: 200px;
+  height: 200px;
+
+  position: absolute;
+  bottom: 3.9em;
+  right: 5em;
+
+  padding: 4em;
+
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  align-content: center;
+  justify-content: center;
+  align-items: center;
+  justify-items: center;
+  
+  font-size: 2em;
+  font-family: 'Bellefair';
+  text-transform: uppercase;
+  color: #0B0D17;
+  border-radius: 50%;
+  border: none;
+
+  transition: .3s ease;
+}
+
+button:hover {
+  box-shadow: 0 0 0 2em #d0d6f933;
+}
